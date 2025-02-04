@@ -11,6 +11,6 @@ setup(
     description='A shameless library for auto-correcting variable types.',
     long_description=open('../README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/your-github-username/shaml',  # Replace
+    url='https://github.com/mgks/shaml',
     license='MIT',
 )
