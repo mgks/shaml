@@ -15,7 +15,7 @@ class ShamelessError(Exception):
         return f"<ShamelessError: {self.message} with original value {self.original_value}>"
 
 
-def sl(value, debug=False): # Changed shameless to sl
+def sl(value, debug=False):
     """
     Attempts to convert the input value to a more appropriate type.
 
