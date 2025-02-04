@@ -1,1 +1,27 @@
-/python/shaml/__pycache__
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+eggs/
+*.whl
+.venv/
+venv/
+site-packages/
+
+# Node.js
+node_modules/
+dist/
+build/
+package-lock.json
+npm-debug.log
+yarn-error.log
+
+# General
+.DS_Store
+*.swp
+*.swo
+*.idea/
+*.vscode/
