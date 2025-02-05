@@ -6,23 +6,50 @@ Shaml (short for Shameless) is a multi-language library that simplifies data han
 
 ![Static Badge](https://img.shields.io/badge/npm_install-shaml-grey?style=flat-square&logo=nodedotjs&logoColor=%235FA04E&labelColor=%23cbedc2)
 
+![Static Badge](https://img.shields.io/badge/composer_require-mgks%2Fshaml-grey?style=flat-square&logo=php&logoColor=%24F5B93E&labelColor=%23c2ccfc)
+
 ## Supported Languages
 
 *   Python
 *   JavaScript (Node.js)
 
+## Project Structure
+```bash
+shaml/
+    README.md
+└── javascript/
+    ├── package.json
+    ├── shaml.js
+    └── README.md
+    └── CHANGELOG.md
+└── python/
+    ├── setup.py
+    └── shaml/
+        ├── __init__.py
+        ├── core.py
+        └── __main__.py
+    └── CHANGELOG.md
+└── php/
+    ├── shaml.php
+    └── test.php
+    └── CHANGELOG.md
+```
+
 ## Installation
 
 ### Python
-
 ```bash
 pip install shaml
 ```
 
 ### JavaScript (Node.js)
-
 ```bash
 npm install shaml
+```
+
+### PHP
+```bash
+composer require mgks/shaml
 ```
 
 ## Usage
@@ -105,6 +132,29 @@ const sl = require('shaml');
 const config = sl("{'name': 'Alice', 'age': '30'}");
 console.log(config.name); // prints Alice
 console.log(config.age); // prints 30 as number
+```
+
+### PHP
+```php
+<?php
+
+require_once 'vendor/autoload.php';
+
+// String to number
+$number = sl("123");
+echo $number . PHP_EOL;  // Output: 123
+Use code with caution.
+```
+
+#### Array Access (PHP)
+```php
+<?php
+
+require_once 'vendor/autoload.php';
+
+$config = sl('{"name": "Alice", "age": "30"}');
+echo $config['name'] . PHP_EOL;  // Output: Alice
+echo $config['age'] . PHP_EOL;  // Output: 30
 ```
 
 ## Error Handling
