@@ -1,0 +1,21 @@
+{
+    "name": "mgks/shaml",
+    "description": "A multi-language library for auto-correcting variable types.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Ghazi Khan",
+        "email": "hello@mgks.dev"
+      }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": "^8.0"
+    },
+    "autoload": {
+      "files": [
+        "shaml.php"
+      ]
+    }
+  }
