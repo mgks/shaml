@@ -15,7 +15,7 @@
     },
     "autoload": {
       "files": [
-        "shaml.php"
+        "php/shaml.php"
       ]
     }
   }
