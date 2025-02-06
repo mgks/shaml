@@ -1,0 +1,24 @@
+{
+  "name": "shaml",
+  "version": "0.0.3",
+  "description": "A shameless library for auto-correcting variable types.",
+  "main": "shaml.js",
+  "files": [
+    "shaml.js",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": ["package","data-handling","data-validation","data-type","javascript","nodejs"],
+  "author": "Ghazi Khan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mgks/shaml.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mgks/shaml/issues"
+  },
+  "homepage": "https://github.com/mgks/shaml#readme"
+}
